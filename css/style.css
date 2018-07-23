@@ -1,0 +1,319 @@
+/* body */
+* {
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  line-height: 1.6;
+  color: rgb(40,40,40,66%);
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-size: 0.90em;
+  margin-bottom: 1.8em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* =================================
+  Base Layout Styles
+==================================== */
+/* header */
+header {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: 0;*/
+  /*  text-align: center;*/
+  background: url('../img/bgrd.png') no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+  /*height: 813px;*/
+}
+
+.main-title {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0;
+  font-weight: 50;
+  margin-bottom: 0px;
+
+  color: #282828;
+  padding-top: 0px;
+}
+
+.play-button {
+  padding-top: 10px;
+  padding-bottom: 25px;
+/*  margin:  10px 0;*/
+  opacity: 0.6;
+}
+
+.button1{
+  background-color: #ff6d6d;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 11px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: -2px;
+}
+
+/*---------Description-----------*/
+main {
+  background: url('../img/Layer 1.png') no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+.new-design {
+  margin-top: 0;
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff6d6d;
+}
+
+main h1 {
+  margin-top: -10px;
+  font-size: 40px;
+  color: #282828;
+  font-weight: 800;
+}
+main p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/*---------Section1-----------*/
+.Section1 {
+  background: url('../img/BG2copy.png') no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kaka {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff6d6d;
+  text-align: center;
+  padding-top: 40px;
+}
+.Section1 h1 {
+  margin-top: -20px;
+  font-size: 40px;
+  color: #282828;
+  font-weight: 800;
+  text-align: center;
+}
+.Section1 p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.Section1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------- Section2 -------------*/
+.Section2 {
+  background: url('../img/macbook.png') no-repeat center;
+  /*background-size: cover;*/
+  /*min-height: 100%;*/
+/*  height: 100vh;*/
+  height: 520px;
+  padding-left: 20px;
+}
+ .Section2 h2 {
+   font-size: 16px;
+   font-weight: 500;
+   color: #ff6d6d;
+   padding-top: 40px;
+   margin-top: 0;
+ }
+ .Section2 h1 {
+   font-size: 40px;
+   color: #282828;
+   font-weight: 800;
+   margin-top: -10px;
+ }
+ .Section2 p {
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 0;
+ }
+
+/*----------- Clients ----------*/
+.Clients {
+  background: url('../img/Group4.png') no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.Clients h4 {
+  color: #ff6d6d;
+  font-size: 16px;
+}
+.Clients h3 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: -20px;
+}
+.Clients p {
+  color: rgb(255,255,255,66%);
+  font-size: 16px;
+  font-style: italic;
+}
+.Clients img {
+  padding-top:40px;
+}
+.logo-1, .logo-2,.logo-3,.logo-3,.logo-4,.logo-5 {
+  /*padding-right: 50px;*/
+}
+
+/*----------- Section3 ----------*/
+.Section3 {
+  background: url('../img/Browser.png') no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+  padding-left: 20px;
+}
+.Section3 h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff6d6d;
+  padding-top: 40px;
+  margin-top: 0;
+}
+.Section3 h1 {
+  font-size: 40px;
+  color: #282828;
+  font-weight: 800;
+  margin-top: -10px;
+}
+.Section2 p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/*--------- footer -------------*/
+.Container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col {
+  padding-right: 1em;
+	padding-left: 1em;
+}
+footer h3 {
+  color: #282828;
+  font-size: 22px;
+}
+footer li, p {
+  font-size: 14px;
+}
+footer li {
+  padding-bottom: 4px;
+}
+.Support, .About-us {
+  margin-top: -10px;
+}
+
+
+
+
+/*-------- Media queries -------------*/
+@media (min-width: 1025px) {
+	.Container,
+	.Container1 {
+		width: 80%;
+		max-width: 1150px;
+    margin: 0 auto;
+	}
+  /*--------main------*/
+  .incont {
+    width: 500px;
+    padding-top: 80px;
+  }
+  /*---------Section1----*/
+  .kaka2 {
+    padding-bottom: 80px;
+  }
+  .columns {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 75px;
+  }
+  /*------------Section2-----*/
+  .incont2 {
+    width: 500px;
+    float: right;
+    padding-top: 70px;
+  }
+  /*--------Clients------*/
+   .incont3 {
+     display: flex;
+     flex-direction: row;
+   }
+   .client1,.client2,.client3 {
+     flex: 1;
+   }
+   .client1,.client2{
+     padding-right: 50px;
+   }
+   .logo-1,.logo-2,.logo-3,.logo-4 {
+    padding-right: 80px;
+   }
+   /*------Section3----*/
+   .incont4 {
+     text-align: center;
+     padding-top: 45px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
